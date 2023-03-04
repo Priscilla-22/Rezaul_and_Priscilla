@@ -1,0 +1,42 @@
+label,
+input {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  background-color: #476381;
+  color: #ecd6d6;
+  border: none;
+  padding: 7px 15px;
+  cursor: pointer;
+}
+
+#title {
+  text-align: center;
+  color: blue;
+}
+
+#description {
+  text-align: center;
+  font-size: medium;
+}
+
+#survey-form {
+  padding: 5px;
+  margin-left: 5px;
+  border: 2px solid black;
+}
+
+#number {
+  width: 20%;
+}
+
+#email {
+  width: 20%;
+}
+
+#name {
+  width: 20%;
+}
