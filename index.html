@@ -14,10 +14,67 @@
   <h1 id="title">
     Survey Form For Micro verse Project
   </h1>
-  <p> This is a survey form with for the Microverse One to One project Creatin By Rezaul and Priscilla</p>
+  <p id="description"> This is a survey form with for the Microverse One to One project Creatin By Rezaul and Priscilla
+  </p>
 
   <!-- 1 & 2 steps Ending Point By Rezaul -->
-  <script src="js/index.js"></script>
+  <!---3rd Part-->
+  <form id="survey-form">
+    <label id="name-label">Name</label>
+    <input type="text"
+           required
+           placeholder="Enter your Name"
+           id="name" /><br />
+    <label id="email-label">Email</label>
+    <input type="email"
+           required
+           placeholder="Please Enter Your Email"
+           id="email" /><br />
+    <label id="number-label">Number</label>
+    <input type="number"
+           required
+           max="11"
+           min="11"
+           placeholder="Please Enter Your Phone Number"
+           id="number" /><br />
+    <label id="select-label">Select Coding Language</label>
+    <select id="dropdown">
+      <option> JavaScript</option>
+      <option>ReactJs</option>
+    </select><br />
+    <label>Select Gender</label><br />
+    <label>Male</label>
+    <input type="radio"
+           value="Male"
+           name="Gender" />
+    <label>Female</label>
+    <input type="radio"
+           value="Female"
+           name="Gender" /> <br />
+    <label id="checkbox-label"> Your Hobby </label><br />
+    <label id="checkbox-label"> Gardening </label>
+    <input type="checkbox"
+           value="Gardening" /><br />
+    <label id="checkbox-label"> Cricket </label>
+    <input type="checkbox"
+           value="Cricket" /><br />
+    <label id="checkbox-label"> Tennis </label>
+    <input type="checkbox"
+           value="tennis" />
+    <br />
+    <textarea id="textarea"
+              rows="4"
+              cols="6"
+              placeholder="Please enter any comment">
+
+    </textarea>
+    <input type="submit"
+           value="Submit"
+           id="submit" />
+  </form>
+
+  <script src="
+           js/index.js"></script>
 </body>
 
 </html>
